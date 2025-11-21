@@ -1,0 +1,11 @@
+.tagbutton{
+  background-color: rgb(130, 152, 190);
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0,3s;
+}
+.tagbutton:hover{
+  background-color: antiquewhite;
+}
