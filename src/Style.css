@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+/* إعدادات عامة */
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;   
+    font-family: "Cairo", "sans-serif";
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* الأقسام */
+section {
+    background-image: url(../public/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* صندوق المحتوى */
+section .container {
+    width: 360px;
+    max-width: 95%;
+    background-color: rgba(115, 111, 105, 0.52);
+    padding: 25px 30px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgb(183, 164, 164);
+    margin: 0 auto; /* يجعل العنصر في الوسط */
+}
+
+/* الجزء العلوي */
+.sec-first {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(165, 153, 177);
+}
+
+.sec-first select {
+    width: 150px;
+    height: 25px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 15px;
+    color: white;
+    padding-right: 5px;
+    background-color: rgb(132, 116, 97);
+}
+
+.sec-first h2 {
+    font-size: 20px;
+    color: white;
+}
+
+/* أسماء الصلوات */
+section .prayerName {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(175, 161, 141);
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(196, 186, 186);
+}
